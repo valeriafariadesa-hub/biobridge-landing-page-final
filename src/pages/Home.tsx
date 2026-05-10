@@ -262,9 +262,17 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
               <p className="text-[#dd6036] font-bold uppercase tracking-widest mb-4">{t.problem.label}</p>
-              <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight mb-6">
-                {t.problem.title}
-              </h2>
+              <h2 
+  className="text-white mb-6"
+  style={{ 
+    fontFamily: "'Montserrat', sans-serif", 
+    fontWeight: 900, 
+    fontSize: "clamp(40px, 5vw, 56px)", 
+    lineHeight: "1.1" 
+  }}
+>
+  {t.problem.title}
+</h2>
               <p className="text-xl text-[#F1F7F5]/80 mb-8 leading-relaxed">
                 {t.problem.description}
               </p>
@@ -320,9 +328,17 @@ export default function Home() {
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="order-1 md:order-2">
               <p className="text-[#00A896] font-bold uppercase tracking-widest mb-4">{t.solution.label}</p>
-              <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight mb-6 text-[#00382B]">
-                {t.solution.title}
-              </h2>
+              <h2 
+  className="text-[#00382B] mb-6"
+  style={{ 
+    fontFamily: "'Montserrat', sans-serif", 
+    fontWeight: 900, 
+    fontSize: "clamp(40px, 5vw, 56px)", 
+    lineHeight: "1.1" 
+  }}
+>
+  {t.solution.title}
+</h2>
               <p className="text-xl text-[#00382B]/80 mb-8 leading-relaxed">
                 {t.solution.description}
               </p>
@@ -358,9 +374,17 @@ export default function Home() {
         <div className="container">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="text-center mb-16">
             <p className="text-[#00382B] font-bold uppercase tracking-widest mb-4">{t.howItWorks.label}</p>
-            <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight">
-              {t.howItWorks.title}
-            </h2>
+            <h2 
+  className="text-[#F1F7F5]"
+  style={{ 
+    fontFamily: "'Montserrat', sans-serif", 
+    fontWeight: 900, 
+    fontSize: "clamp(40px, 5vw, 56px)", 
+    lineHeight: "1.1" 
+  }}
+>
+  {t.howItWorks.title}
+</h2>
           </motion.div>
           <div className="grid md:grid-cols-3 gap-8">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="bg-[#00382B] p-8 text-center">
@@ -388,9 +412,17 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
               <p className="text-[#00A896] font-bold uppercase tracking-widest mb-4">{t.output.label}</p>
-              <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight mb-6 text-[#00382B]">
-                {t.output.title}
-              </h2>
+              <h2 
+  className="text-[#00382B] mb-6"
+  style={{ 
+    fontFamily: "'Montserrat', sans-serif", 
+    fontWeight: 900, 
+    fontSize: "clamp(40px, 5vw, 56px)", 
+    lineHeight: "1.1" 
+  }}
+>
+  {t.output.title}
+</h2>
               <p className="text-xl text-[#00382B]/80 mb-8 leading-relaxed">
                 {t.output.description}
               </p>
@@ -424,9 +456,17 @@ export default function Home() {
       <section id="contact" className="py-24 bg-[#00382B] text-[#F1F7F5]">
         <div className="container text-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
-            <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight mb-6">
-              {t.cta.title}
-            </h2>
+            <h2 
+  className="text-[#F1F7F5] mb-6"
+  style={{ 
+    fontFamily: "'Montserrat', sans-serif", 
+    fontWeight: 900, 
+    fontSize: "clamp(40px, 5vw, 56px)", 
+    lineHeight: "1.1" 
+  }}
+>
+  {t.cta.title}
+</h2>
             <p className="text-xl text-[#F1F7F5]/80 mb-8 max-w-2xl mx-auto">
               {t.cta.description}
             </p>
