@@ -2,14 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html, body {
-    @apply overflow-x-hidden;
-  }
-  
-  main, section {
-    @apply px-4 sm:px-6;
-  }
-}
 
 /* You can keep any other custom CSS you have below these lines */
