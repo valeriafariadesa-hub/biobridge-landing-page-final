@@ -234,16 +234,17 @@ export default function Home() {
   >
     {t.hero.tagline}
   </p>
-  <h1 
-    className="font-bold leading-[1.1] mb-6"
-    style={{ 
-      fontFamily: "'Montserrat', sans-serif", 
-      fontSize: "clamp(48px, 8vw, 72px)",
-      letterSpacing: "-0.02em"
-    }}
-  >
-    {t.hero.title}
-  </h1>
+<h1 
+  className="leading-[1.1] mb-6 text-[#F1F7F5]"
+  style={{ 
+    fontFamily: "'Montserrat', sans-serif", 
+    fontWeight: 700, 
+    fontSize: "clamp(64px, 7vw, 72px)",
+    letterSpacing: "-0.01em"
+  }}
+>
+  {t.hero.title}
+</h1>
   <p className="text-xl md:text-2xl text-[#F1F7F5]/80 mb-8 leading-relaxed max-w-2xl">
     {t.hero.description}
   </p>
