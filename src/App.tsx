@@ -32,9 +32,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           {/* This wrapper ensures content never touches the screen edges */}
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Router />
-          </div>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
