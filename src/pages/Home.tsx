@@ -410,7 +410,7 @@ export default function Home() {
         </div>
       </section>
 
-     {/* CTA Section */}
+{/* CTA Section */}
       <section id="contact" className="py-24 bg-[#00382B] text-[#F1F7F5]">
         <div className="container text-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
