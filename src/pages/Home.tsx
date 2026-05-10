@@ -228,11 +228,11 @@ export default function Home() {
             variants={fadeIn}
             className="max-w-2xl text-[#F1F7F5]"
           >
-            <p className="text-[#dd6036] font-bold uppercase tracking-widest mb-4">
-              {t.hero.tagline}
+            <p className="text-[#dd6036] text-xl font-black uppercase tracking-[0.2em] mb-4"> 
+            {t.hero.tagline}
             </p>
-            <h1 className="font-display text-5xl md:text-7xl font-black leading-tight mb-6">
-              {t.hero.title}
+            <h1 className="font-display text-6xl md:text-8xl font-black leading-[1.1] mb-6">
+            {t.hero.title}
             </h1>
             <p className="text-xl md:text-2xl text-[#F1F7F5]/80 mb-8 leading-relaxed">
               {t.hero.description}
