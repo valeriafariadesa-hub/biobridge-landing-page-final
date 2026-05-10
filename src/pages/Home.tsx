@@ -49,7 +49,7 @@ const translations = {
       title: "Da Floresta para Frankfurt em 3 Passos",
       capture: "Capturar",
       captureDesc: "Agentes de campo registram colheitas e escaneiam códigos QR offline. GPS é capturado automaticamente.",
-      verify: "Verificar",
+      verify: "Verify",
       verifyDesc: "Os dados sincronizam com a nuvem e são automaticamente comparados com mapas de desmatamento por satélite.",
       certify: "Certificar",
       certifyDesc: "Um 'Passaporte de Conformidade' é gerado, pronto para ser compartilhado com importadores europeus.",
@@ -141,7 +141,7 @@ const translations = {
     footer: {
       copyright: "© 2026 BioBridge AI. All rights reserved.",
       privacy: "Privacy Policy",
-      terms: "Terms of Service",
+      terms: "Termos de Service",
     },
   },
 };
@@ -229,10 +229,10 @@ export default function Home() {
             className="max-w-2xl text-[#F1F7F5]"
           >
             <p className="text-[#dd6036] text-lg font-bold uppercase tracking-widest mb-4">
-            {t.hero.tagline}
+              {t.hero.tagline}
             </p>
-             <h1 className="font-display text-6xl md:text-8xl font-bold leading-tight mb-6">
-            {t.hero.title}
+            <h1 className="font-display text-6xl md:text-8xl font-bold leading-tight mb-6">
+              {t.hero.title}
             </h1>
             <p className="text-xl md:text-2xl text-[#F1F7F5]/80 mb-8 leading-relaxed">
               {t.hero.description}
@@ -253,7 +253,7 @@ export default function Home() {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
               <p className="text-[#dd6036] font-bold uppercase tracking-widest mb-4">{t.problem.label}</p>
               <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight mb-6">
-              {t.problem.title}
+                {t.problem.title}
               </h2>
               <p className="text-xl text-[#F1F7F5]/80 mb-8 leading-relaxed">
                 {t.problem.description}
@@ -311,7 +311,7 @@ export default function Home() {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="order-1 md:order-2">
               <p className="text-[#00A896] font-bold uppercase tracking-widest mb-4">{t.solution.label}</p>
               <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight mb-6 text-[#00382B]">
-              {t.solution.title}
+                {t.solution.title}
               </h2>
               <p className="text-xl text-[#00382B]/80 mb-8 leading-relaxed">
                 {t.solution.description}
@@ -348,26 +348,27 @@ export default function Home() {
         <div className="container">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="text-center mb-16">
             <p className="text-[#00382B] font-bold uppercase tracking-widest mb-4">{t.howItWorks.label}</p>
-            <h2 className="font-display text-4xl md:text-5xl font-black leading-tight">
+            <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight">
               {t.howItWorks.title}
             </h2>
           </motion.div>
           <div className="grid md:grid-cols-3 gap-8">
-  <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="bg-[#00382B] p-8 text-center">
-    <div className="font-display text-6xl font-bold text-[#00A896] mb-4">01</div>
-    <h3 className="font-display text-2xl font-bold mb-4">{t.howItWorks.capture}</h3>
-    <p className="text-[#F1F7F5]/80">{t.howItWorks.captureDesc}</p>
-  </motion.div>
-  <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="bg-[#00382B] p-8 text-center">
-    <div className="font-display text-6xl font-bold text-[#00A896] mb-4">02</div>
-    <h3 className="font-display text-2xl font-bold mb-4">{t.howItWorks.verify}</h3>
-    <p className="text-[#F1F7F5]/80">{t.howItWorks.verifyDesc}</p>
-  </motion.div>
-  <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="bg-[#00382B] p-8 text-center">
-    <div className="font-display text-6xl font-bold text-[#00A896] mb-4">03</div>
-    <h3 className="font-display text-2xl font-bold mb-4">{t.howItWorks.certify}</h3>
-    <p className="text-[#F1F7F5]/80">{t.howItWorks.certifyDesc}</p>
-  </motion.div>       
+            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="bg-[#00382B] p-8 text-center">
+              <div className="font-display text-6xl font-bold text-[#00A896] mb-4">01</div>
+              <h3 className="font-display text-2xl font-bold mb-4">{t.howItWorks.capture}</h3>
+              <p className="text-[#F1F7F5]/80">{t.howItWorks.captureDesc}</p>
+            </motion.div>
+            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="bg-[#00382B] p-8 text-center">
+              <div className="font-display text-6xl font-bold text-[#00A896] mb-4">02</div>
+              <h3 className="font-display text-2xl font-bold mb-4">{t.howItWorks.verify}</h3>
+              <p className="text-[#F1F7F5]/80">{t.howItWorks.verifyDesc}</p>
+            </motion.div>
+            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="bg-[#00382B] p-8 text-center">
+              <div className="font-display text-6xl font-bold text-[#00A896] mb-4">03</div>
+              <h3 className="font-display text-2xl font-bold mb-4">{t.howItWorks.certify}</h3>
+              <p className="text-[#F1F7F5]/80">{t.howItWorks.certifyDesc}</p>
+            </motion.div>
+          </div>
         </div>
       </section>
 
@@ -378,7 +379,7 @@ export default function Home() {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
               <p className="text-[#00A896] font-bold uppercase tracking-widest mb-4">{t.output.label}</p>
               <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight mb-6 text-[#00382B]">
-              {t.output.title}
+                {t.output.title}
               </h2>
               <p className="text-xl text-[#00382B]/80 mb-8 leading-relaxed">
                 {t.output.description}
@@ -397,7 +398,6 @@ export default function Home() {
                   <span className="font-medium">{t.output.qrCode}</span>
                 </li>
               </ul>
-
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
               <img
@@ -410,24 +410,7 @@ export default function Home() {
         </div>
       </section>
 
-{/* CTA Section */}
-      <section id="contact" className="py-24 bg-[#00382B] text-[#F1F7F5]">
-        <div className="container text-center">
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
-            <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight mb-6">
-              {t.cta.title}
-            </h2>
-            <p className="text-xl text-[#F1F7F5]/80 mb-8 max-w-2xl mx-auto">
-              {t.cta.description}
-            </p>
-            <Button size="lg" className="bg-[#dd6036] hover:bg-[#c94f2a] text-white font-bold text-lg px-12" onClick={() => window.open('https://form.typeform.com/to/qMMYzSqn', '_blank')}>
-              {t.cta.requestDemo} <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-          </motion.div>
-        </div>
-      </section>
-
-     {/* CTA Section */}
+      {/* CTA Section */}
       <section id="contact" className="py-24 bg-[#00382B] text-[#F1F7F5]">
         <div className="container text-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
