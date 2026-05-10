@@ -427,6 +427,23 @@ export default function Home() {
         </div>
       </section>
 
+     {/* CTA Section */}
+      <section id="contact" className="py-24 bg-[#00382B] text-[#F1F7F5]">
+        <div className="container text-center">
+          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
+            <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight mb-6">
+              {t.cta.title}
+            </h2>
+            <p className="text-xl text-[#F1F7F5]/80 mb-8 max-w-2xl mx-auto">
+              {t.cta.description}
+            </p>
+            <Button size="lg" className="bg-[#dd6036] hover:bg-[#c94f2a] text-white font-bold text-lg px-12" onClick={() => window.open('https://form.typeform.com/to/qMMYzSqn', '_blank')}>
+              {t.cta.requestDemo} <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-8 bg-[#00382B] border-t border-[#1C4E43] text-[#F1F7F5]/60">
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
