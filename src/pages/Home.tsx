@@ -235,17 +235,19 @@ export default function Home() {
     {t.hero.tagline}
   </p>
 <h1 
-  className="mb-6 text-white"
+  className="mb-6 text-white max-w-[600px]"
   style={{ 
     fontFamily: "'Montserrat', sans-serif", 
     fontWeight: 900, 
     fontSize: "72px", 
-    lineHeight: "1.1",
-    letterSpacing: "0.02em",
+    lineHeight: "1.05",
+    letterSpacing: "-0.01em",
     textTransform: "none"
   }}
 >
-  {t.hero.title}
+  A Ponte Entre <br />
+  a Amazônia e <br />
+  a Europa
 </h1>
   <p className="text-xl md:text-2xl text-[#F1F7F5]/80 mb-8 leading-relaxed max-w-2xl">
     {t.hero.description}
