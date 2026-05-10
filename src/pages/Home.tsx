@@ -235,12 +235,14 @@ export default function Home() {
     {t.hero.tagline}
   </p>
 <h1 
-  className="leading-[1.1] mb-6 text-[#F1F7F5]"
+  className="mb-6 text-white"
   style={{ 
     fontFamily: "'Montserrat', sans-serif", 
-    fontWeight: 700, 
-    fontSize: "clamp(64px, 7vw, 72px)",
-    letterSpacing: "-0.01em"
+    fontWeight: 900, 
+    fontSize: "72px", 
+    lineHeight: "1.1",
+    letterSpacing: "0.02em",
+    textTransform: "none"
   }}
 >
   {t.hero.title}
