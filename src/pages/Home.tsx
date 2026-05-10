@@ -388,18 +388,65 @@ export default function Home() {
           </motion.div>
           <div className="grid md:grid-cols-3 gap-8">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="bg-[#00382B] p-8 text-center">
-              <div className="font-display text-6xl font-bold text-[#00A896] mb-4">01</div>
-              <h3 className="font-display text-2xl font-bold mb-4">{t.howItWorks.capture}</h3>
+              <div 
+                className="text-[#00A896] mb-4"
+                style={{ 
+                  fontFamily: "'Montserrat', sans-serif", 
+                  fontWeight: 900, 
+                  fontSize: "72px",
+                  lineHeight: "1"
+                }}
+              >
+                01
+              </div>
+              <h3 
+                className="text-[#F1F7F5] text-2xl mb-4"
+                style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 900 }}
+              >
+                {t.howItWorks.capture}
+              </h3>
               <p className="text-[#F1F7F5]/80">{t.howItWorks.captureDesc}</p>
             </motion.div>
+
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="bg-[#00382B] p-8 text-center">
-              <div className="font-display text-6xl font-bold text-[#00A896] mb-4">02</div>
-              <h3 className="font-display text-2xl font-bold mb-4">{t.howItWorks.verify}</h3>
+              <div 
+                className="text-[#00A896] mb-4"
+                style={{ 
+                  fontFamily: "'Montserrat', sans-serif", 
+                  fontWeight: 900, 
+                  fontSize: "72px",
+                  lineHeight: "1"
+                }}
+              >
+                02
+              </div>
+              <h3 
+                className="text-[#F1F7F5] text-2xl mb-4"
+                style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 900 }}
+              >
+                {t.howItWorks.verify}
+              </h3>
               <p className="text-[#F1F7F5]/80">{t.howItWorks.verifyDesc}</p>
             </motion.div>
+
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="bg-[#00382B] p-8 text-center">
-              <div className="font-display text-6xl font-bold text-[#00A896] mb-4">03</div>
-              <h3 className="font-display text-2xl font-bold mb-4">{t.howItWorks.certify}</h3>
+              <div 
+                className="text-[#00A896] mb-4"
+                style={{ 
+                  fontFamily: "'Montserrat', sans-serif", 
+                  fontWeight: 900, 
+                  fontSize: "72px",
+                  lineHeight: "1"
+                }}
+              >
+                03
+              </div>
+              <h3 
+                className="text-[#F1F7F5] text-2xl mb-4"
+                style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 900 }}
+              >
+                {t.howItWorks.certify}
+              </h3>
               <p className="text-[#F1F7F5]/80">{t.howItWorks.certifyDesc}</p>
             </motion.div>
           </div>
