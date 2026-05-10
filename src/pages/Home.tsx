@@ -222,27 +222,32 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#00382B]/90 via-[#00382B]/70 to-transparent" />
         </div>
         <div className="container relative z-10">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={fadeIn}
-            className="max-w-2xl text-[#F1F7F5]"
-          >
-            <p className="text-[#dd6036] text-lg font-bold uppercase tracking-widest mb-4">
-              {t.hero.tagline}
-            </p>
-            <h1 className="font-display text-6xl md:text-8xl font-bold leading-tight mb-6">
-              {t.hero.title}
-            </h1>
-            <p className="text-xl md:text-2xl text-[#F1F7F5]/80 mb-8 leading-relaxed">
-              {t.hero.description}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" variant="outline" className="border-[#F1F7F5] text-[#F1F7F5] hover:bg-[#F1F7F5]/10 font-bold text-lg px-8" onClick={() => window.open('https://form.typeform.com/to/qMMYzSqn', '_blank')}>
-                {t.hero.learnMore}
-              </Button>
-            </div>
-          </motion.div>
+        <motion.div
+  initial="hidden"
+  animate="visible"
+  variants={fadeIn}
+  className="max-w-4xl text-[#F1F7F5]"
+>
+  <p 
+    className="text-[#dd6036] text-lg font-bold uppercase tracking-[0.2em] mb-4"
+    style={{ fontFamily: "'Montserrat', sans-serif" }}
+  >
+    {t.hero.tagline}
+  </p>
+  <h1 
+    className="font-bold leading-[1.1] mb-6"
+    style={{ 
+      fontFamily: "'Montserrat', sans-serif", 
+      fontSize: "clamp(48px, 8vw, 72px)",
+      letterSpacing: "-0.02em"
+    }}
+  >
+    {t.hero.title}
+  </h1>
+  <p className="text-xl md:text-2xl text-[#F1F7F5]/80 mb-8 leading-relaxed max-w-2xl">
+    {t.hero.description}
+  </p>
+</motion.div>
         </div>
       </section>
 
