@@ -505,17 +505,9 @@ export default function Home() {
       <section id="contact" className="py-24 bg-[#00382B] text-[#F1F7F5]">
         <div className="container text-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
-            <h2 
-  className="text-[#F1F7F5] mb-6"
-  style={{ 
-    fontFamily: "'Montserrat', sans-serif", 
-    fontWeight: 900, 
-    fontSize: "clamp(40px, 5vw, 56px)", 
-    lineHeight: "1.1" 
-  }}
->
-  {t.cta.title}
-</h2>
+            <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight mb-6">
+              {t.cta.title}
+            </h2>
             <p className="text-xl text-[#F1F7F5]/80 mb-8 max-w-2xl mx-auto">
               {t.cta.description}
             </p>
