@@ -14,7 +14,7 @@ const translations = {
     },
     hero: {
       tagline: "Conformidade EUDR Simplificada",
-      title: "A Ponte Entre a Amazônia e a Europa",
+      title: "A Ponte Entre\na Amazônia e\na Europa" ,
       description: "Um CRM móvel offline-first que capacita pequenos produtores amazônicos a comprovar que seus produtos são livres de desmatamento, desbloqueando acesso ao mercado europeu.",
       getStarted: "Começar",
       learnMore: "Quer saber mais? Agende uma conversa.",
@@ -84,7 +84,10 @@ const translations = {
     },
     hero: {
       tagline: "EUDR Compliance Made Simple",
-      title: "The Bridge Between the Amazon and Europe",
+      hero: {
+  tagline: "EUDR Compliance Made Simple",
+  title: "The Bridge Between\nthe Amazon and\nEurope",
+},
       description: "An offline-first mobile CRM that empowers small Amazonian producers to prove their products are deforestation-free, unlocking access to the EU market.",
       getStarted: "Get Started",
       learnMore: "Want to learn more? Schedule a conversation.",
@@ -235,19 +238,18 @@ export default function Home() {
     {t.hero.tagline}
   </p>
 <h1 
-  className="mb-6 text-white max-w-[600px]"
+  className="mb-6 text-white max-w-[800px]"
   style={{ 
     fontFamily: "'Montserrat', sans-serif", 
     fontWeight: 900, 
     fontSize: "72px", 
-    lineHeight: "1.05",
+    lineHeight: "1.1",
     letterSpacing: "-0.01em",
-    textTransform: "none"
+    textTransform: "none",
+    whiteSpace: "pre-line" // This makes the \n breaks work
   }}
 >
-  A Ponte Entre <br />
-  a Amazônia e <br />
-  a Europa
+  {t.hero.title}
 </h1>
   <p className="text-xl md:text-2xl text-[#F1F7F5]/80 mb-8 leading-relaxed max-w-2xl">
     {t.hero.description}
