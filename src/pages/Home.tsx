@@ -84,7 +84,7 @@ const translations = {
     },
     hero: {
       tagline: "EUDR Compliance Made Simple",
-      title: "The Bridge\ntBetween\nthe Amazon\nand Europe",
+      title: "The Bridge\nBetween\nthe Amazon\nand Europe",
       description: "An offline-first mobile CRM that empowers small Amazonian producers to prove their products are deforestation-free, unlocking access to the EU market.",
       getStarted: "Get Started",
       learnMore: "Want to learn more? Schedule a conversation.",
@@ -168,7 +168,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#F1F7F5]">
+    <div className="min-h-screen flex flex-col bg-[#F1F7F5] overflow-x-hidden">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#00382B] text-[#F1F7F5]">
         <div className="container flex items-center justify-between h-16">
@@ -239,7 +239,7 @@ export default function Home() {
   style={{ 
     fontFamily: "'Montserrat', sans-serif", 
     fontWeight: 900, 
-    fontSize: "clamp(40px, 8vw, 72px)", 
+    fontSize: "clamp(32px, 8vw, 72px)", 
     lineHeight: "1.1",
     letterSpacing: "-0.01em",
     textTransform: "none",
@@ -267,7 +267,7 @@ export default function Home() {
   style={{ 
     fontFamily: "'Montserrat', sans-serif", 
     fontWeight: 900, 
-    fontSize: "clamp(40px, 5vw, 56px)", 
+    fontSize: "clamp(28px, 5vw, 56px)", 
     lineHeight: "1.1" 
   }}
 >
