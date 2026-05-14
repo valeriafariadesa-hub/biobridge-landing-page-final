@@ -84,7 +84,7 @@ const translations = {
     },
     hero: {
       tagline: "EUDR Compliance Made Simple",
-      title: "The Bridge Between\nthe Amazon and\nEurope",
+      title: "The Bridge Between\nthe Amazon\nand Europe",
       description: "An offline-first mobile CRM that empowers small Amazonian producers to prove their products are deforestation-free, unlocking access to the EU market.",
       getStarted: "Get Started",
       learnMore: "Want to learn more? Schedule a conversation.",
