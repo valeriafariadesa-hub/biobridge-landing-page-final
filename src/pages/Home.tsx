@@ -14,7 +14,7 @@ const translations = {
     },
     hero: {
       tagline: "Conformidade EUDR Simplificada",
-      title: "A Ponte Entre\na Amazônia e\na Europa" ,
+      title: "A Ponte Entre\na Amazônia e\na Europa",
       description: "Um CRM móvel offline-first que capacita pequenos produtores amazônicos a comprovar que seus produtos são livres de desmatamento, desbloqueando acesso ao mercado europeu.",
       getStarted: "Começar",
       learnMore: "Quer saber mais? Agende uma conversa.",
@@ -141,7 +141,7 @@ const translations = {
     footer: {
       copyright: "© 2026 BioBridge AI. All rights reserved.",
       privacy: "Privacy Policy",
-      terms: "Termos de Service",
+      terms: "Terms of Service",
     },
   },
 };
@@ -239,11 +239,12 @@ export default function Home() {
   style={{ 
     fontFamily: "'Montserrat', sans-serif", 
     fontWeight: 900, 
-    fontSize: "72px", 
+    fontSize: "clamp(40px, 8vw, 72px)", 
     lineHeight: "1.1",
     letterSpacing: "-0.01em",
     textTransform: "none",
-    whiteSpace: "pre-line" // This makes the \n breaks work
+    // This line only applies the breaks if the screen is wider than 768px
+    whiteSpace: typeof window !== 'undefined' && window.innerWidth > 768 ? "pre-line" : "normal"
   }}
 >
   {t.hero.title}
@@ -374,15 +375,19 @@ export default function Home() {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="text-center mb-16">
             <p className="text-[#00382B] font-bold uppercase tracking-widest mb-4">{t.howItWorks.label}</p>
             <h2 
-  className="text-[#F1F7F5]"
+  className="text-white mb-6"
   style={{ 
     fontFamily: "'Montserrat', sans-serif", 
     fontWeight: 900, 
-    fontSize: "clamp(40px, 5vw, 56px)", 
-    lineHeight: "1.1" 
+    fontSize: "clamp(32px, 5vw, 56px)", 
+    lineHeight: "1.1",
+    letterSpacing: "-0.01em",
+    textTransform: "none",
+    // Disable forced breaks on mobile
+    whiteSpace: typeof window !== 'undefined' && window.innerWidth > 768 ? "pre-line" : "normal"
   }}
 >
-  {t.howItWorks.title}
+  {t.cta.title}
 </h2>
           </motion.div>
           <div className="grid md:grid-cols-3 gap-8">
