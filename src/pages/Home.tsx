@@ -387,7 +387,7 @@ export default function Home() {
     whiteSpace: typeof window !== 'undefined' && window.innerWidth > 768 ? "pre-line" : "normal"
   }}
 >
-  {t.cta.title}
+  {t.howItWorks.title}
 </h2>
           </motion.div>
           <div className="grid md:grid-cols-3 gap-8">
