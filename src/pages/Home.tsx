@@ -15,7 +15,7 @@ const translations = {
     hero: {
       tagline: "Conformidade EUDR Simplificada",
       title: "A Ponte Entre\na Amazônia e\na Europa",
-      description: "Um CRM móvel offline-first que capacita pequenos produtores amazônicos a comprovar que seus produtos são livres de desmatamento, desbloqueando acesso ao mercado europeu.",
+      description: "Um aplicativo offline-first que capacita pequenos produtores amazônicos a comprovar que seus produtos são livres de desmatamento, desbloqueando acesso ao mercado europeu.",
       getStarted: "Começar",
       learnMore: "Quer saber mais? Agende uma conversa.",
     },
@@ -34,7 +34,7 @@ const translations = {
     solution: {
       label: "A Solução",
       title: "Rastreabilidade Offline-First",
-      description: "Fechamos a divisão digital com um CRM móvel ultra-simples. Nossa interface foi desenhada com foco total no trabalhador rural, priorizando a simplicidade para quem possa não ter muita intimidade com tecnologia. Funciona sem internet, captura dados de GPS automaticamente e sincroniza com a nuvem quando a conectividade está disponível.",
+      description: "Fechamos a divisão digital com um aplicativo ultra-simples. Nossa interface foi desenhada com foco total no trabalhador rural, priorizando a simplicidade para quem possa não ter muita intimidade com tecnologia. Funciona sem internet, captura dados de GPS automaticamente e sincroniza com a nuvem quando a conectividade está disponível.",
       simpleApp: "Aplicativo Simples",
       simpleAppDesc: "Desenhado para líderes de cooperativas, não para especialistas em tecnologia.",
       qrScanning: "Escaneamento QR",
@@ -49,7 +49,7 @@ const translations = {
       title: "Da Floresta para Frankfurt em 3 Passos",
       capture: "Capturar",
       captureDesc: "Agentes de campo registram colheitas e escaneiam códigos QR offline. GPS é capturado automaticamente.",
-      verify: "Verify",
+      verify: "Verificar",
       verifyDesc: "Os dados sincronizam com a nuvem e são automaticamente comparados com mapas de desmatamento por satélite.",
       certify: "Certificar",
       certifyDesc: "Um 'Passaporte de Conformidade' é gerado, pronto para ser compartilhado com importadores europeus.",
@@ -85,7 +85,7 @@ const translations = {
     hero: {
       tagline: "EUDR Compliance Made Simple",
       title: "The Bridge\nBetween\nthe Amazon\nand Europe",
-      description: "An offline-first mobile CRM that empowers small Amazonian producers to prove their products are deforestation-free, unlocking access to the EU market.",
+      description: "An offline-first mobile app that empowers small Amazonian producers to prove their products are deforestation-free, unlocking access to the EU market.",
       getStarted: "Get Started",
       learnMore: "Want to learn more? Schedule a conversation.",
     },
@@ -104,7 +104,7 @@ const translations = {
     solution: {
       label: "The Solution",
       title: "Offline-First Traceability",
-      description: "We bridge the digital divide with an ultra-simple mobile CRM designed for field agents. It works without internet, captures GPS data automatically, and syncs to the cloud when connectivity is available.",
+      description: "We bridge the digital divide with an ultra-simple mobile app designed for field agents. It works without internet, captures GPS data automatically, and syncs to the cloud when connectivity is available.",
       simpleApp: "Simple App",
       simpleAppDesc: "Designed for co-op leaders, not tech experts.",
       qrScanning: "QR Scanning",
@@ -173,7 +173,7 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#00382B] text-[#F1F7F5]">
         <div className="container flex items-center justify-between h-16">
           <a href="/" className="font-display text-xl font-bold tracking-tight">
-            BioBridge<span className="text-[#dd6036]">AI</span>
+            BioBridge
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium">
             <a href="#problem" className="hover:text-[#00A896] transition-colors">{t.nav.problem}</a>
