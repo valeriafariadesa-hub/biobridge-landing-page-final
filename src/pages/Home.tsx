@@ -65,7 +65,7 @@ const translations = {
     },
     cta: {
       title: "Pronto para Fechar a Lacuna?",
-      description: "Vamos conversar sobre como BioBridge pode ajudar sua organização a acessar o mercado europeu.",
+      description: "Vamos conversar sobre como BioBridge\npode ajudar sua organização a acessar o mercado europeu.",
       requestDemo: "Agendar uma Conversa",
     },
     footer: {
@@ -135,7 +135,7 @@ const translations = {
     },
     cta: {
       title: "Ready to Bridge the Gap?",
-      description: "Let's talk about how BioBridge can help your organization access the European market.",
+      description: "Let's talk about how BioBridge\ncan help your organization access the European market.",
       requestDemo: "Schedule a Conversation",
     },
     footer: {
