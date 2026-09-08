@@ -65,11 +65,11 @@ const translations = {
     },
     cta: {
       title: "Pronto para Fechar a Lacuna?",
-      description: "Vamos conversar sobre como BioBridge AI pode ajudar sua organização a acessar o mercado europeu.",
+      description: "Vamos conversar sobre como BioBridge pode ajudar sua organização a acessar o mercado europeu.",
       requestDemo: "Agendar uma Conversa",
     },
     footer: {
-      copyright: "© 2026 BioBridge AI. Todos os direitos reservados.",
+      copyright: "© 2026 BioBridge. Todos os direitos reservados.",
       privacy: "Política de Privacidade",
       terms: "Termos de Serviço",
     },
@@ -135,11 +135,11 @@ const translations = {
     },
     cta: {
       title: "Ready to Bridge the Gap?",
-      description: "Let's talk about how BioBridge AI can help your organization access the European market.",
+      description: "Let's talk about how BioBridge can help your organization access the European market.",
       requestDemo: "Schedule a Conversation",
     },
     footer: {
-      copyright: "© 2026 BioBridge AI. All rights reserved.",
+      copyright: "© 2026 BioBridge. All rights reserved.",
       privacy: "Privacy Policy",
       terms: "Terms of Service",
     },
