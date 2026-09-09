@@ -172,7 +172,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#00382B] text-[#F1F7F5]">
         <div className="container flex items-center justify-between h-16">
-          <a href="/" className="font-display text-2xl font-bold tracking-tight">
+          <a href="/" className="font-display text-3xl font-bold tracking-tight">
   Bio<span className="text-[#dd6036]">Bridge</span>
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium">
