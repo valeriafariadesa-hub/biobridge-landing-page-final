@@ -521,9 +521,12 @@ export default function Home() {
       >
         {t.cta.title}
       </h2>
-      <p className="text-xl text-[#F1F7F5]/80 mb-8 max-w-2xl mx-auto">
-        {t.cta.description}
-      </p>
+      <p
+  className="text-xl text-[#F1F7F5]/80 mb-8 max-w-2xl mx-auto"
+  style={{ whiteSpace: "pre-line" }}
+>
+  {t.cta.description}
+</p>
       <Button 
         size="lg" 
         className="bg-[#dd6036] hover:bg-[#c94f2a] text-white font-bold text-lg px-12" 
