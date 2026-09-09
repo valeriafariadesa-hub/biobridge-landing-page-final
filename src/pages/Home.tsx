@@ -14,7 +14,7 @@ const translations = {
     },
     hero: {
       tagline: "Conformidade EUDR Simplificada",
-      title: "A Ponte Entre\no Brasil e\na Europa",
+      title: "A Ponte\nEntre\no Brasil e\na Europa",
       description: "Um aplicativo offline-first que capacita pequenos produtores amazônicos a comprovar que seus produtos são livres de desmatamento, desbloqueando acesso ao mercado europeu.",
       getStarted: "Começar",
       learnMore: "Quer saber mais? Agende uma conversa.",
