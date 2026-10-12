@@ -170,11 +170,15 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-[#F1F7F5] overflow-x-hidden">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#00382B] text-[#F1F7F5]">
+        <nav className="fixed top-0 left-0 right-0 z-50 bg-[#14372C] text-[#F1F7F5]">
         <div className="container flex items-center justify-between h-16">
-          <a href="/" className="font-display text-3xl font-bold tracking-tight">
-  Bio<span className="text-[#dd6036]">Bridge</span>
-          </a>
+          <a href="/" className="flex shrink-0 items-center" aria-label="BioBridge home">
+  <img
+    src="/images/biobridge-leaf-wordmark-header.20261011.png"
+    alt="BioBridge"
+    className="h-10 w-auto"
+  />
+</a>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium">
             <a href="#problem" className="hover:text-[#00A896] transition-colors">{t.nav.problem}</a>
             <a href="#solution" className="hover:text-[#00A896] transition-colors">{t.nav.solution}</a>
