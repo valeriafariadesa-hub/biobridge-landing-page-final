@@ -325,7 +325,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="order-2 md:order-1">
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663305354612/7kQgTxnnMrrf2uXEzV7VPV/hero_field_agent_ea84b2c6.jpg"
+src="/images/field-app-hands.20261011.png"
                 alt="Field Agent with Mobile App"
                 className="w-full border-8 border-[#00382B]"
               />
